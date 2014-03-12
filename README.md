@@ -1,7 +1,8 @@
-Cluterizer
+Clusterizer
 ==========
 
-Given a graph: generate clusters
+Given: a graph 
+Generate: clusters
 
 ##TODO
 Standardize input and output formats for graphs
@@ -12,3 +13,16 @@ Hack the above together in python and networkX to prove it works
 
 re-write in java or go becuase python is problematically slow.
 
+
+##
+         |--------|
+graph -> |   ?    | ->  clusters
+         |________|
+         
+    
+         |--------------------|    |----------------------------------------------|
+graph -> |  min energy cover  | -> |  lower radius, repeat, stop when got a tree? | ->  tree of clusters
+         |____________________|    |______________________________________________| 
+        
+         
+         
