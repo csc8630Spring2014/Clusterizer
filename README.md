@@ -17,7 +17,7 @@ re-write in java or go becuase python is problematically slow.
 ##
          |--------|
 graph -> |   ?    | ->  clusters
-         |________|
+         |--------|
          
     
          |--------------------|    |----------------------------------------------|
