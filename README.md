@@ -15,14 +15,12 @@ re-write in java or go becuase python is problematically slow.
 
 
 ##
-         |--------|
+
 graph -> |   ?    | ->  clusters
-         |--------|
-         
-    
-         |--------------------|    |----------------------------------------------|
+
+
 graph -> |  min energy cover  | -> |  lower radius, repeat, stop when got a tree? | ->  tree of clusters
-         |____________________|    |______________________________________________| 
+
         
          
          
