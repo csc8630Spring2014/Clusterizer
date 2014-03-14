@@ -1,7 +1,8 @@
 # Clusterizer
 ==========
 
-Given: a graph 
+Given: a graph; 
+
 Generate: clusters
 
 ## TODO
@@ -19,6 +20,7 @@ Generate: clusters
 graph -> |   ?    | ->  clusters
 
 Ways to do that:
+
 1)
 we can use K-means approach:
 "+" no need to generate graph
