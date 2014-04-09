@@ -1,0 +1,88 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This file is a template using the "beamer" package to create slides for a talk or presentation
+% - Introducing another speaker.
+% - Talk length is about 2min.
+% - Style is ornate.
+
+% MODIFIED by Jonathan Kew, 2008-07-06
+% The header comments and encoding in this file were modified for inclusion with TeXworks.
+% The content is otherwise unchanged from the original distributed with the beamer package.
+
+\documentclass{beamer}
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, the author grants the extra permission to freely
+% copy and  modify this file as you see fit and even to delete this
+% copyright notice. 
+
+
+\setbeamertemplate{background canvas}[vertical shading][bottom=white,top=structure.fg!25]
+% or whatever
+
+\usetheme{Warsaw}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\setbeamersize{text margin left=0.5cm}
+  
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[utf8]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+
+\begin{document}
+
+\begin{frame}{Clustering}
+	\begin{itemize}
+		\item{Given all to all Graph of inter-protein distances: \\ Find a hierarchical clustering based on edge cut}
+		\item{New Problem: \\ There are not good algorithms for cut-based clustering involving inter-node distances}
+		\item{Approximate a minimum radius (in edit distance) to preserve connectivity of the graph}
+		\item{use the resulting sub-graph to approximate min-cut graph clusters}
+    \end{itemize}  
+\end{frame}
+
+\begin{frame}{Minimum Radius Cover}
+	\begin{itemize}
+		\item{For each node in G: \\ Choose a minimum radius such that if this node is only connected to other nodes within that radius, the node is still connected}
+		\item{This is annoyingly NP hard, however greedy approximation fairs well}
+    \end{itemize}  
+\end{frame}
+
+\begin{frame}{Centralized Greedy Radius Approximation}
+	\begin{itemize}
+	\item{Given fully connected edge-weighted Graph G}
+	\item{Given set S=$\empty$ and N= All nodes in G}
+	\item{Choose a random node x in N}
+	\item{S=[x]}
+	\item{Set x's radius equal to it's lowest weight edge}
+	\item{N = N - [x]}
+	\item{While $N$ is not empty:}
+	\begin{itemize}
+		\item{Choose a node y from N, such that it has the lowest distance to a node in S}
+		\item{Set radius y to distance to node in S}
+		\item{S = S $\bigcup{}[y]$}
+		\item{N = N - [y]}
+    \end{itemize}
+    \item{Generate subgraph G' where all nodes in G' are connected only to nodes within their radii}
+    \end{itemize}  
+\end{frame}
+\end{document}
+
+
