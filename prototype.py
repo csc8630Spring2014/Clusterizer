@@ -3,7 +3,7 @@ import random
 import matplotlib.pyplot as plt
 import time
 from ete2 import Tree, TreeStyle
-import xmlrpclib
+import json
 
 #The Big Scary Algorithim
 def partition(graph):
@@ -21,7 +21,7 @@ def partition(graph):
 
                 return tuple(map(partition,subgraphs)) #RECURSE
         else:
-                return graph.nodes()
+                return str(graph.nodes())
 
 
 
@@ -80,9 +80,9 @@ total_radius = sum(map(lambda x: RadiusGraph.node[x]["weight"], nodes))
 
 average_radius = total_radius/float(len(nodes))
 partgraph =  partition(RadiusGraph)
-print xmlrpclib.dumps(partgraph)
+print json.dumps(partgraph)
 
-"""
+
 source = str(partgraph)+";"
 t = Tree(source)
 ts = TreeStyle()
@@ -98,4 +98,3 @@ t.show(tree_style=ts)
 #print end-start
 #plt.show()
 
-"""
