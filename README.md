@@ -31,5 +31,11 @@ we can use K-means approach:
 graph -> |  min energy cover  | -> |  lower radius, repeat, stop when got a tree? | ->  tree of clusters
 
         
-         
+--------------
+I know now why you don't want to use XML
+
+1) you are doing it wrong.
+2) you are doing it wrong.
+
+Please see any of the numerous samples on how to describe a tree using XML such as: http://www.w3schools.com/xml/xml_tree.asp
          
