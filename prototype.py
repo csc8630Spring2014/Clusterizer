@@ -6,10 +6,13 @@ from ete2 import Tree, TreeStyle
 import json
 
 #The Big Scary Algorithim
-def partition(graph):
-        if len(graph.nodes())>3: #minimum cluster size, stop deviding anythign smaller. 3,2, and 1 size clusters can still happen!
+def partition(graph, depth=0):
+        print depth
+        energy = 0
+        if len(graph.nodes())>3 and depth < 6: #minimum cluster size, stop deviding anythign smaller. 3,2, and 1 size clusters can still happen!
                 while(nx.is_connected(graph)): #alter the graph, untill it disconnects
                         biggest = max(graph.nodes(), key=lambda x: graph.node[x]["weight"]) #go find the biggest radius node
+                        energy += graph.node[biggest]["weight"]
                         peers = sorted(graph.edges(nbunch=[biggest], data=True), key=lambda x: -1* x[2]['weight']) #find that node's availible peers
                         graph.remove_edge(biggest, peers[0][1]) #cut the link with the one furthest away
                         if len(peers) >1:
@@ -19,9 +22,12 @@ def partition(graph):
 
                 subgraphs = nx.connected_component_subgraphs(graph) #get all the new fancy subgraphs
 
-                return tuple(map(partition,subgraphs)) #RECURSE
+                recurse = [energy]
+                recurse.append(map(lambda x: partition(x,depth+1),subgraphs))
+
+                return tuple(recurse) #RECURSE
         else:
-                return str(graph.nodes())
+                return  str((energy,graph.nodes()))
 
 
 
@@ -52,7 +58,7 @@ def renderPartitionsIntoGraph(parttree):
 
 start = time.time()
 
-G = nx.powerlaw_cluster_graph(500, 100,0.5, seed=None)
+G = nx.powerlaw_cluster_graph(50, 10,0.5, seed=None)
 for e in G.edges_iter():
         G[e[0]][e[1]]["weight"]=random.randint(1,100)
 
