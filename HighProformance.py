@@ -1,5 +1,9 @@
 import networkx as nx
 from matplotlib import pyplot as plt
+from json import dumps
+
+global_g = None
+
 def fileReader(filename):
         with open(filename) as fp:
                 line = fp.readline()
@@ -20,6 +24,7 @@ def ParsedGraph(fileName):
                 metadata = line.pop(0)#throw away metadata
                 if origin not in G.node:
                         G.add_node(origin)
+                G.node[origin]["data"] = metadata
                 #print "origin", origin
                 while len(line)>0:
                         other = line.pop(0)
@@ -27,6 +32,7 @@ def ParsedGraph(fileName):
                         #print other, dist
                         if other not in G.node:
                                 G.add_node(origin)
+
                         G.add_edge(origin,other,{"weight":dist})
         return G
 
@@ -99,14 +105,78 @@ def partition(graph, depth=0):
         return (energy, subgraphs)
 
 
+def partition2XML(p):
+        global global_g
+        def recurse(G,subp):
+                
+                if type(subp[0]) == type(0.0):#new node
+                        G+="\n<NODE energy='"+str(subp[0])+"'/>"
+                        newroot = subp[0]
+                        for sub in subp[1:]:
+                                G = recurse(G,sub)
+                        G+="\n</NODE>"
+                else:
+
+                        if type(subp) == type(list()):
+                                for n in subp:
+                                        G = recurse(G,n)
+                        else:
+                                G+="\n<PROTEIN name='"+str(subp)+"'/>\n"+global_g.node[subp]["data"]
+                                G+="\n</PROTEIN>"
+                return G
+
+        G = "<TREE/>"
+        print p
+        root = p[0]
+        G+="\n<ROOT energy='"+str(root)+"'/>"
+        for subp in p[1:]:
+                G = recurse(G,subp)
+        G+="\n</ROOT>"
+        return G+"\n</Tree>"
 
 
-g = ParsedGraph("test_input.csv")
+def partition2Graph(p):
+        def recurse(G,root,subp):
+                print type(subp),subp
+                if type(subp[0]) == type(0.0):
+                        print subp
+                        newroot = subp[0]
+                        G.add_node(newroot)
+                        G.add_edge(root, newroot)
+                        for sub in subp[1:]:
+                                recurse(G,newroot,sub)
+                else:
+                        if type(subp) == type(list()):
+                                for n in subp:
+                                        recurse(G,root,n)
+                        else:
+                                G.add_node(str(subp))
+                                G.add_edge(root,str(subp))
+                return G       
+        G = nx.Graph()
+        print p
+        root = p[0]
+        G.add_node(root)
+        for subp in p[1:]:
+                G = recurse(G,root,subp)
+        print "about to return",type(G)
+        return G
 
-gprime = genMinEnergyCoverGraph(g)
 
-print partition(gprime.copy())
 
-nx.draw_spring(gprime, weight="weight")
+global_g = ParsedGraph("test_input.csv")
+
+gprime = genMinEnergyCoverGraph(global_g)
+
+print "graphifying"
+partitions = partition(gprime.copy())
+tree_graph = partition2Graph(partitions)
+
+# same layout using matplotlib with no labels
+with open("test_output.xml","w") as fp:
+        fp.write(partition2XML(partitions))
+
+plt.title("draw_networkx")
+nx.draw(tree_graph)
 plt.show()
 

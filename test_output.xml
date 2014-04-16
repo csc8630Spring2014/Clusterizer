@@ -1,0 +1,320 @@
+<TREE/>
+<ROOT energy='5.09450008711'/>
+<PROTEIN name='10mhA'/>
+meta
+</PROTEIN>
+<PROTEIN name='12caA'/>
+meta
+</PROTEIN>
+<PROTEIN name='12e8P'/>
+meta
+</PROTEIN>
+<PROTEIN name='157lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='11bgA'/>
+meta
+</PROTEIN>
+<PROTEIN name='11bgB'/>
+meta
+</PROTEIN>
+<PROTEIN name='11baB'/>
+meta
+</PROTEIN>
+<PROTEIN name='11baA'/>
+meta
+</PROTEIN>
+<PROTEIN name='153lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='159lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='141lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='140lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='144lA'/>
+meta
+</PROTEIN>
+<NODE energy='3.0873299781'/>
+<PROTEIN name='158lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='155lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='156lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='12e8H'/>
+meta
+</PROTEIN>
+<PROTEIN name='135lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='134lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='133lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='146lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='154lA'/>
+meta
+</PROTEIN>
+<NODE energy='6.69346246973'/>
+<PROTEIN name='132lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='119lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='125lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='123lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='109lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='122lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='108lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='138lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='130lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='139lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='112lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='137lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='128lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='147lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='115lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='137lB'/>
+meta
+</PROTEIN>
+<PROTEIN name='113lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='111lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='145lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='114lA'/>
+meta
+</PROTEIN>
+<NODE energy='2.89204670712'/>
+<PROTEIN name='118lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='151lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='129lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='110lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='127lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='120lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='150lB'/>
+meta
+</PROTEIN>
+<PROTEIN name='150lC'/>
+meta
+</PROTEIN>
+<PROTEIN name='131lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='150lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='149lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='150lD'/>
+meta
+</PROTEIN>
+<PROTEIN name='102lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='104lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='104lB'/>
+meta
+</PROTEIN>
+<PROTEIN name='103lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='126lA'/>
+meta
+</PROTEIN>
+<NODE energy='0.226441137505'/>
+<PROTEIN name='12asB'/>
+meta
+</PROTEIN>
+<PROTEIN name='11asA'/>
+meta
+</PROTEIN>
+<PROTEIN name='11asB'/>
+meta
+</PROTEIN>
+<PROTEIN name='155cA'/>
+meta
+</PROTEIN>
+<PROTEIN name='12asA'/>
+meta
+</PROTEIN>
+</NODE>
+<NODE energy='0.224'/>
+<PROTEIN name='117eB'/>
+meta
+</PROTEIN>
+<PROTEIN name='12e8M'/>
+meta
+</PROTEIN>
+<PROTEIN name='12e8L'/>
+meta
+</PROTEIN>
+<PROTEIN name='117eA'/>
+meta
+</PROTEIN>
+</NODE>
+</NODE>
+<NODE energy='0.400690846288'/>
+<PROTEIN name='152lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='148lE'/>
+meta
+</PROTEIN>
+<PROTEIN name='13pkD'/>
+meta
+</PROTEIN>
+<PROTEIN name='13pkB'/>
+meta
+</PROTEIN>
+<PROTEIN name='107lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='13pkC'/>
+meta
+</PROTEIN>
+<PROTEIN name='13pkA'/>
+meta
+</PROTEIN>
+</NODE>
+</NODE>
+<NODE energy='1.18861677116'/>
+<PROTEIN name='104mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='105mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='107mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='110mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='101mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='103mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='102mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='109mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='111mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='121pA'/>
+meta
+</PROTEIN>
+<PROTEIN name='108mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='112mA'/>
+meta
+</PROTEIN>
+<PROTEIN name='106mA'/>
+meta
+</PROTEIN>
+</NODE>
+</NODE>
+<NODE energy='1.15611245717'/>
+<PROTEIN name='10gsB'/>
+meta
+</PROTEIN>
+<PROTEIN name='10gsA'/>
+meta
+</PROTEIN>
+<PROTEIN name='14gsB'/>
+meta
+</PROTEIN>
+<PROTEIN name='14gsA'/>
+meta
+</PROTEIN>
+<PROTEIN name='11gsA'/>
+meta
+</PROTEIN>
+<PROTEIN name='12gsA'/>
+meta
+</PROTEIN>
+<PROTEIN name='12gsB'/>
+meta
+</PROTEIN>
+<PROTEIN name='143lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='11gsB'/>
+meta
+</PROTEIN>
+<PROTEIN name='13gsA'/>
+meta
+</PROTEIN>
+<PROTEIN name='142lA'/>
+meta
+</PROTEIN>
+<PROTEIN name='13gsB'/>
+meta
+</PROTEIN>
+</NODE>
+</ROOT>
+</Tree>
