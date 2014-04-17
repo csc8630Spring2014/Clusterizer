@@ -206,7 +206,7 @@ def partition2JSON(p):
                         return root.repr()
 
         print p
-        root = JSONNode(float(p[0]),[]).repr()
+        root = JSONNode(float(p[0])**-1,[]).repr()
         for subp in p[1:]:
                 root = recurse(root,subp)
         return dumps(root,sort_keys=False,indent=4, separators=(',', ': '))
