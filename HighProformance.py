@@ -2,6 +2,14 @@ import networkx as nx
 from matplotlib import pyplot as plt
 from json import dumps
 
+class JSONNode():
+        def __init__(self, energy, children):
+                self.energy = energy
+                self.children = children
+        def repr(self):
+                return {'energy':self.energy,'children':self.children}
+
+
 global_g = None
 
 def fileReader(filename):
@@ -134,6 +142,36 @@ def partition2XML(p):
         G+="\n</ROOT>"
         return G+"\n</Tree>"
 
+def partition2JSON(p):
+        global global_g
+        def recurse(root,subp):
+                
+                if type(subp[0]) == type(0.0):#new node
+                        newNode = JSONNode(float(subp[0]),[]).repr()
+                        for sub in subp[1:]:
+                                root['children'].append(newNode)
+                                newNode = recurse(newNode,sub)
+                        return root
+                else:
+
+                        if type(subp) == type(list()):
+                                for n in subp:
+                                        root = recurse(root,n)
+                        else:
+                                protein = {'name':str(subp), 'data':str(global_g.node[subp]["data"])}
+                                root['children'].append(protein)
+                if type(root) is dict:
+                        return root
+                else:
+                        return root.repr()
+
+        print p
+        root = JSONNode(float(p[0]),[]).repr()
+        for subp in p[1:]:
+                root = recurse(root,subp)
+        return dumps(root,sort_keys=False,indent=4, separators=(',', ': '))
+
+
 
 def partition2Graph(p):
         def recurse(G,root,subp):
@@ -173,10 +211,10 @@ partitions = partition(gprime.copy())
 tree_graph = partition2Graph(partitions)
 
 # same layout using matplotlib with no labels
-with open("test_output.xml","w") as fp:
-        fp.write(partition2XML(partitions))
+with open("test_output.json","w") as fp:
+        fp.write(partition2JSON(partitions))
 
-plt.title("draw_networkx")
+#plt.title("draw_networkx")
 nx.draw(tree_graph)
 plt.show()
 

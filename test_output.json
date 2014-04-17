@@ -1,0 +1,445 @@
+{
+    "energy": 5.094500087113,
+    "children": [
+        {
+            "data": "meta",
+            "name": "10mhA"
+        },
+        {
+            "data": "meta",
+            "name": "12caA"
+        },
+        {
+            "data": "meta",
+            "name": "12e8P"
+        },
+        {
+            "data": "meta",
+            "name": "157lA"
+        },
+        {
+            "data": "meta",
+            "name": "11bgA"
+        },
+        {
+            "data": "meta",
+            "name": "11bgB"
+        },
+        {
+            "data": "meta",
+            "name": "11baB"
+        },
+        {
+            "data": "meta",
+            "name": "11baA"
+        },
+        {
+            "data": "meta",
+            "name": "153lA"
+        },
+        {
+            "data": "meta",
+            "name": "159lA"
+        },
+        {
+            "data": "meta",
+            "name": "141lA"
+        },
+        {
+            "data": "meta",
+            "name": "140lA"
+        },
+        {
+            "data": "meta",
+            "name": "144lA"
+        },
+        {
+            "energy": 3.0873299780989996,
+            "children": [
+                {
+                    "data": "meta",
+                    "name": "158lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "155lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "156lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "12e8H"
+                },
+                {
+                    "data": "meta",
+                    "name": "135lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "134lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "133lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "146lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "154lA"
+                },
+                {
+                    "energy": 6.693462469727006,
+                    "children": [
+                        {
+                            "data": "meta",
+                            "name": "132lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "119lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "125lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "123lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "109lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "122lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "108lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "138lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "130lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "139lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "112lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "137lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "128lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "147lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "115lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "137lB"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "113lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "111lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "145lA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "114lA"
+                        },
+                        {
+                            "energy": 2.892046707115999,
+                            "children": [
+                                {
+                                    "data": "meta",
+                                    "name": "118lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "151lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "129lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "110lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "127lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "120lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "150lB"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "150lC"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "131lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "150lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "149lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "150lD"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "102lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "104lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "104lB"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "103lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "126lA"
+                                },
+                                {
+                                    "energy": 0.226441137505,
+                                    "children": [
+                                        {
+                                            "data": "meta",
+                                            "name": "12asB"
+                                        },
+                                        {
+                                            "data": "meta",
+                                            "name": "11asA"
+                                        },
+                                        {
+                                            "data": "meta",
+                                            "name": "11asB"
+                                        },
+                                        {
+                                            "data": "meta",
+                                            "name": "155cA"
+                                        },
+                                        {
+                                            "data": "meta",
+                                            "name": "12asA"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "energy": 0.224,
+                                    "children": [
+                                        {
+                                            "data": "meta",
+                                            "name": "117eB"
+                                        },
+                                        {
+                                            "data": "meta",
+                                            "name": "12e8M"
+                                        },
+                                        {
+                                            "data": "meta",
+                                            "name": "12e8L"
+                                        },
+                                        {
+                                            "data": "meta",
+                                            "name": "117eA"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "energy": 0.400690846288,
+                            "children": [
+                                {
+                                    "data": "meta",
+                                    "name": "152lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "148lE"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "13pkD"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "13pkB"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "107lA"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "13pkC"
+                                },
+                                {
+                                    "data": "meta",
+                                    "name": "13pkA"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "energy": 1.1886167711589999,
+                    "children": [
+                        {
+                            "data": "meta",
+                            "name": "104mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "105mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "107mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "110mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "101mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "103mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "102mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "109mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "111mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "121pA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "108mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "112mA"
+                        },
+                        {
+                            "data": "meta",
+                            "name": "106mA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "energy": 1.1561124571680002,
+            "children": [
+                {
+                    "data": "meta",
+                    "name": "10gsB"
+                },
+                {
+                    "data": "meta",
+                    "name": "10gsA"
+                },
+                {
+                    "data": "meta",
+                    "name": "14gsB"
+                },
+                {
+                    "data": "meta",
+                    "name": "14gsA"
+                },
+                {
+                    "data": "meta",
+                    "name": "11gsA"
+                },
+                {
+                    "data": "meta",
+                    "name": "12gsA"
+                },
+                {
+                    "data": "meta",
+                    "name": "12gsB"
+                },
+                {
+                    "data": "meta",
+                    "name": "143lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "11gsB"
+                },
+                {
+                    "data": "meta",
+                    "name": "13gsA"
+                },
+                {
+                    "data": "meta",
+                    "name": "142lA"
+                },
+                {
+                    "data": "meta",
+                    "name": "13gsB"
+                }
+            ]
+        }
+    ]
+}
