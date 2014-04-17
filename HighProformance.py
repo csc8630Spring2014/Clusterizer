@@ -29,7 +29,7 @@ class JSONNode():
                 self.energy = energy
                 self.children = children
         def repr(self):
-                return {'size':self.energy,'children':self.children}
+                return {'name':"blah", 'size':self.energy,'children':self.children}
 
 
 global_g = None
