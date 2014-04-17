@@ -100,8 +100,8 @@ def partition(graph, depth=0):
         #if the size of split is < 3 iterate
         #if the size of split is > 3 recurse
         #dont go more than 6 levels deep
-        if depth > 6:
-                return graph.nodes()
+        #if depth > 6:
+        #        return graph.nodes()
         subgraphs = []
         toRecurse = []
         energy = 0.0
