@@ -29,7 +29,7 @@ class JSONNode():
                 self.energy = energy
                 self.children = children
         def repr(self):
-                return {'energy':self.energy,'children':self.children}
+                return {'size':self.energy,'children':self.children}
 
 
 global_g = None
@@ -100,8 +100,8 @@ def partition(graph, depth=0):
         #if the size of split is < 3 iterate
         #if the size of split is > 3 recurse
         #dont go more than 6 levels deep
-        #if depth > 6:
-        #        return graph.nodes()
+        if depth > 20:
+                return graph.nodes()
         subgraphs = []
         toRecurse = []
         energy = 0.0
@@ -198,7 +198,7 @@ def partition2JSON(p):
                                         cathid = RAWDICT[str(subp)]
                                 else:
                                         cathid = "None"
-                                protein = {'name':str(subp), 'cathid':cathid}
+                                protein = {'name':str(subp), 'cathid':cathid, 'size':0.001}
                                 root['children'].append(protein)
                 if type(root) is dict:
                         return root
