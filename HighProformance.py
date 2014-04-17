@@ -29,7 +29,7 @@ class JSONNode():
                 self.energy = energy
                 self.children = children
         def repr(self):
-                return {'name':"blah", 'size':self.energy,'children':self.children}
+                return {'name':str(int(self.energy*100))+"%", 'size':self.energy,'children':self.children}
 
 
 global_g = None
@@ -100,8 +100,8 @@ def partition(graph, depth=0):
         #if the size of split is < 3 iterate
         #if the size of split is > 3 recurse
         #dont go more than 6 levels deep
-        if depth > 20:
-                return graph.nodes()
+        #if depth > 100:
+        #        return graph.nodes()
         subgraphs = []
         toRecurse = []
         energy = 0.0
