@@ -124,7 +124,7 @@ def partition(graph, depth=0):
                 tmpsubgraphs = nx.connected_component_subgraphs(graph) #get all the new fancy subgraphs
                 print "GOT SUBGRAPHS", subgraphs
                 for g in tmpsubgraphs:
-                        if len(g.nodes()) <= 3:
+                        if len(g.nodes()) <= 10:
                                 subgraphs.append(g.nodes())
                         else:
                                 toRecurse.append(g)
@@ -198,8 +198,7 @@ def partition2JSON(p):
                                 if str(subp) in RAWDICT:
                                         cathid = RAWDICT[str(subp)]
                                         print(len(cathid), cathid)
-                                        family = cathid[0].split(",")[-1]
-                                        color = "#"+hashlib.md5(family).hexdigest()[:6]
+                                        color = "#"+hashlib.md5(str(cathid)).hexdigest()[:6]
                                 else:
                                         cathid = "None"
 
@@ -212,7 +211,7 @@ def partition2JSON(p):
                         return root.repr()
 
         print p
-        root = JSONNode(float(p[0])**2,[]).repr()
+        root = JSONNode(float(p[0]),[]).repr()
         for subp in p[1:]:
                 root = recurse(root,subp)
         return dumps(root,sort_keys=False,indent=4, separators=(',', ': '))
