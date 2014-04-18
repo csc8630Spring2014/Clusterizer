@@ -1,7 +1,7 @@
 import networkx as nx
 from matplotlib import pyplot as plt
 from json import dumps
-import re
+import re, hashlib
 
 def get_pdb_dict():
         """Takes CATH domain list and returns dictionary of PDB codes
@@ -29,7 +29,7 @@ class JSONNode():
                 self.energy = energy
                 self.children = children
         def repr(self):
-                return {'name':str(int(self.energy*100))+"%", 'size':self.energy,'children':self.children}
+                return {'name':str(int(self.energy*100))+"%", 'size':self.energy**-2,'children':self.children}
 
 
 global_g = None
@@ -194,11 +194,17 @@ def partition2JSON(p):
                                 for n in subp:
                                         root = recurse(root,n)
                         else:
+                                color = "#000000"
                                 if str(subp) in RAWDICT:
                                         cathid = RAWDICT[str(subp)]
+                                        print(len(cathid), cathid)
+                                        family = cathid[0].split(",")[-1]
+                                        color = "#"+hashlib.md5(family).hexdigest()[:6]
                                 else:
                                         cathid = "None"
-                                protein = {'name':str(subp), 'cathid':cathid, 'size':0.001}
+
+                                protein = {'name':str(subp), 'cathid':cathid, 'color':color,'size':1}
+
                                 root['children'].append(protein)
                 if type(root) is dict:
                         return root
@@ -206,7 +212,7 @@ def partition2JSON(p):
                         return root.repr()
 
         print p
-        root = JSONNode(float(p[0])**-1,[]).repr()
+        root = JSONNode(float(p[0])**2,[]).repr()
         for subp in p[1:]:
                 root = recurse(root,subp)
         return dumps(root,sort_keys=False,indent=4, separators=(',', ': '))
