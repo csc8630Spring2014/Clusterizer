@@ -160,7 +160,7 @@ function colour(d) {
     // L*a*b* might be better here...
     return d3.hsl(h / count, (s/count) * 1.2, (l/count)/ 1.2);
   }
-  return d.color || "#fff";
+  return color(d.cathid) || "#fff";
 }
 
 // Interpolate the scales!

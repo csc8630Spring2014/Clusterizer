@@ -29,7 +29,7 @@ class JSONNode():
                 self.energy = energy
                 self.children = children
         def repr(self):
-                return {'name':str(int(self.energy*100))+"%", 'size':self.energy**-2,'children':self.children}
+                return {'name':str(int(self.energy*100))+"%", 'size':self.energy**-1,'children':self.children}
 
 
 global_g = None
@@ -124,15 +124,15 @@ def partition(graph, depth=0):
                 tmpsubgraphs = nx.connected_component_subgraphs(graph) #get all the new fancy subgraphs
                 print "GOT SUBGRAPHS", subgraphs
                 for g in tmpsubgraphs:
-                        if len(g.nodes()) <= 10:
+                        if len(g.nodes()) == 1:
                                 subgraphs.append(g.nodes())
                         else:
                                 toRecurse.append(g)
                 print "HAVE ", len(toRecurse), "TO RECURSE"
-                if len(toRecurse) == 1: #we spawned an orphan, iterate
+                if len(toRecurse) <= 10: #we spawned an orphan, iterate
                         print "ITERATING"
                         graph = toRecurse.pop()
-                elif len(toRecurse) > 1:
+                elif len(toRecurse) > 10:
                         #time to bother forking!
                         done = True
                         print "RECURSING"
@@ -211,7 +211,7 @@ def partition2JSON(p):
                         return root.repr()
 
         print p
-        root = JSONNode(float(p[0]),[]).repr()
+        root = JSONNode(float(p[0])**-1,[]).repr()
         for subp in p[1:]:
                 root = recurse(root,subp)
         return dumps(root,sort_keys=False,indent=4, separators=(',', ': '))
@@ -220,7 +220,7 @@ def partition2JSON(p):
 
 def partition2Graph(p):
         def recurse(G,root,subp):
-                print type(subp),subp
+                #print type(subp),subp
                 if type(subp[0]) == type(0.0):
                         print subp
                         newroot = subp[0]
