@@ -1,0 +1,1362 @@
+{
+    "children": [
+        {
+            "size": 0.001,
+            "name": "155cA",
+            "cathid": "None"
+        },
+        {
+            "size": 0.001,
+            "name": "155CA",
+            "cathid": [
+                "1,10,760,10"
+            ]
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "size": 0.001,
+                                    "name": "152lA",
+                                    "cathid": "None"
+                                },
+                                {
+                                    "size": 0.001,
+                                    "name": "152LA",
+                                    "cathid": [
+                                        "1,10,530,40"
+                                    ]
+                                },
+                                {
+                                    "size": 0.001,
+                                    "name": "157LA",
+                                    "cathid": [
+                                        "1,10,530,40"
+                                    ]
+                                },
+                                {
+                                    "size": 0.001,
+                                    "name": "157lA",
+                                    "cathid": "None"
+                                },
+                                {
+                                    "size": 0.001,
+                                    "name": "151LA",
+                                    "cathid": [
+                                        "1,10,530,40"
+                                    ]
+                                },
+                                {
+                                    "size": 0.001,
+                                    "name": "151lA",
+                                    "cathid": "None"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "size": 0.001,
+                                            "name": "159LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "156LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "129LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "112LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "109lA",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "113LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "158LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "159lA",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "156lA",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "148LE",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "107LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "138LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "139lA",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "155LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "127LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "147LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "145LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "109LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "113lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "137LB",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "137lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "144LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "146lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "141LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "128LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "126LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "137lB",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "137LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "158lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "107lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "139LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "138lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "155lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "112lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "147lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "145lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "148lE",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "128lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "129lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "127lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "126lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "104lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "104LB",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "104LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "104lB",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "103LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "103lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "102lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "102LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "123lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "122lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "123LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "130LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "131lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "111LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "120lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "118LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "118lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "114lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "114LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "119LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "119lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "131LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "125LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "130lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "122LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "111lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "120LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "125lA",
+                                                            "cathid": "None"
+                                                        }
+                                                    ],
+                                                    "name": "99%",
+                                                    "size": 0.9939024390240001
+                                                },
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "115LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "110lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "108LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "115lA",
+                                                            "cathid": "None"
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "110LA",
+                                                            "cathid": [
+                                                                "1,10,530,40"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "size": 0.001,
+                                                            "name": "108lA",
+                                                            "cathid": "None"
+                                                        }
+                                                    ],
+                                                    "name": "99%",
+                                                    "size": 0.9939024390240001
+                                                }
+                                            ],
+                                            "name": "99%",
+                                            "size": 0.9939024390240001
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "144lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "146LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "141lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "140LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "143lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "140lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "143LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "142lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "142LA",
+                                                    "cathid": [
+                                                        "1,10,530,40"
+                                                    ]
+                                                }
+                                            ],
+                                            "name": "99%",
+                                            "size": 0.9939024390240001
+                                        }
+                                    ],
+                                    "name": "98%",
+                                    "size": 0.9878048780489999
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "size": 0.001,
+                                            "name": "149LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "150lA",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "150lC",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "150LB",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "150LC",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "150lD",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "150lB",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "149lA",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "150LD",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "150LA",
+                                            "cathid": [
+                                                "1,10,530,40"
+                                            ]
+                                        }
+                                    ],
+                                    "name": "100%",
+                                    "size": 1.0
+                                }
+                            ],
+                            "name": "19%",
+                            "size": 0.19879518072300004
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "size": 0.001,
+                                            "name": "10mhA",
+                                            "cathid": "None"
+                                        },
+                                        {
+                                            "size": 0.001,
+                                            "name": "10MHA",
+                                            "cathid": [
+                                                "3,90,120,10"
+                                            ]
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "101mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "102mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "103MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "101MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "102MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "103mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "104mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "105MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "104MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "105mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "109mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "110mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "112MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "111mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "109MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "111MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "112mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "110MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "name": "99%",
+                                                                    "size": 0.993506493506
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "106mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "108MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "107mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "106MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "108mA",
+                                                                            "cathid": "None"
+                                                                        },
+                                                                        {
+                                                                            "size": 0.001,
+                                                                            "name": "107MA",
+                                                                            "cathid": [
+                                                                                "1,10,490,10"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "name": "99%",
+                                                                    "size": 0.993506493506
+                                                                }
+                                                            ],
+                                                            "name": "23%",
+                                                            "size": 0.23602484472000002
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12ASA",
+                                                                    "cathid": [
+                                                                        "3,30,930,10"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "11asB",
+                                                                    "cathid": "None"
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "11ASA",
+                                                                    "cathid": [
+                                                                        "3,30,930,10"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12ASB",
+                                                                    "cathid": [
+                                                                        "3,30,930,10"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12asA",
+                                                                    "cathid": "None"
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "11ASB",
+                                                                    "cathid": [
+                                                                        "3,30,930,10"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "11asA",
+                                                                    "cathid": "None"
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12asB",
+                                                                    "cathid": "None"
+                                                                }
+                                                            ],
+                                                            "name": "100%",
+                                                            "size": 1.0
+                                                        }
+                                                    ],
+                                                    "name": "23%",
+                                                    "size": 0.231404958678
+                                                },
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12e8H",
+                                                                    "cathid": "None"
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12E8P",
+                                                                    "cathid": [
+                                                                        "2,60,40,10"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12E8M",
+                                                                    "cathid": [
+                                                                        "2,60,40,10"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12e8L",
+                                                                    "cathid": "None"
+                                                                }
+                                                            ],
+                                                            "name": "45%",
+                                                            "size": 0.45057471264400006
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12e8P",
+                                                                    "cathid": "None"
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12E8H",
+                                                                    "cathid": [
+                                                                        "2,60,40,10"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12e8M",
+                                                                    "cathid": "None"
+                                                                },
+                                                                {
+                                                                    "size": 0.001,
+                                                                    "name": "12E8L",
+                                                                    "cathid": [
+                                                                        "2,60,40,10"
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "name": "45%",
+                                                            "size": 0.45057471264400006
+                                                        }
+                                                    ],
+                                                    "name": "22%",
+                                                    "size": 0.22933333333300002
+                                                }
+                                            ],
+                                            "name": "22%",
+                                            "size": 0.227272727273
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "121pA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "121PA",
+                                                    "cathid": [
+                                                        "3,40,50,300"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "117EB",
+                                                    "cathid": [
+                                                        "3,90,80,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "12caA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "117eB",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "117EA",
+                                                    "cathid": [
+                                                        "3,90,80,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "12CAA",
+                                                    "cathid": [
+                                                        "3,10,200,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "117eA",
+                                                    "cathid": "None"
+                                                }
+                                            ],
+                                            "name": "22%",
+                                            "size": 0.22705314009700003
+                                        }
+                                    ],
+                                    "name": "21%",
+                                    "size": 0.214417744917
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "153lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "154LA",
+                                                    "cathid": [
+                                                        "1,10,530,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "153LA",
+                                                    "cathid": [
+                                                        "1,10,530,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "154lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "133LA",
+                                                    "cathid": [
+                                                        "1,10,530,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "134lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "132lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "135LA",
+                                                    "cathid": [
+                                                        "1,10,530,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "132LA",
+                                                    "cathid": [
+                                                        "1,10,530,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "135lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "133lA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "134LA",
+                                                    "cathid": [
+                                                        "1,10,530,10"
+                                                    ]
+                                                }
+                                            ],
+                                            "name": "28%",
+                                            "size": 0.284584980237
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "11baB",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "11baA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "11BAB",
+                                                    "cathid": [
+                                                        "3,10,130,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "11BGA",
+                                                    "cathid": [
+                                                        "3,10,130,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "11bgB",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "11BAA",
+                                                    "cathid": [
+                                                        "3,10,130,10"
+                                                    ]
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "11bgA",
+                                                    "cathid": "None"
+                                                },
+                                                {
+                                                    "size": 0.001,
+                                                    "name": "11BGB",
+                                                    "cathid": [
+                                                        "3,10,130,10"
+                                                    ]
+                                                }
+                                            ],
+                                            "name": "100%",
+                                            "size": 1.0
+                                        }
+                                    ],
+                                    "name": "20%",
+                                    "size": 0.208695652174
+                                }
+                            ],
+                            "name": "20%",
+                            "size": 0.208695652174
+                        }
+                    ],
+                    "name": "18%",
+                    "size": 0.187165775401
+                },
+                {
+                    "children": [
+                        {
+                            "size": 0.001,
+                            "name": "10gsB",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "10GSA",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "10GSB",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "10gsA",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "14gsB",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "11GSA",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "11gsB",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "14GSA",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "13GSB",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "13gsA",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "12gsA",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "14GSB",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "14gsA",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "11gsA",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "12GSA",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "12GSB",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "13gsB",
+                            "cathid": "None"
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "13GSA",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "11GSB",
+                            "cathid": [
+                                "3,40,30,10"
+                            ]
+                        },
+                        {
+                            "size": 0.001,
+                            "name": "12gsB",
+                            "cathid": "None"
+                        }
+                    ],
+                    "name": "99%",
+                    "size": 0.997613365155
+                }
+            ],
+            "name": "17%",
+            "size": 0.175757575758
+        },
+        {
+            "children": [
+                {
+                    "size": 0.001,
+                    "name": "13pkD",
+                    "cathid": "None"
+                },
+                {
+                    "size": 0.001,
+                    "name": "13PKB",
+                    "cathid": [
+                        "3,40,50,1270"
+                    ]
+                },
+                {
+                    "size": 0.001,
+                    "name": "13PKD",
+                    "cathid": [
+                        "3,40,50,1270"
+                    ]
+                },
+                {
+                    "size": 0.001,
+                    "name": "13pkA",
+                    "cathid": "None"
+                },
+                {
+                    "size": 0.001,
+                    "name": "13PKA",
+                    "cathid": [
+                        "3,40,50,1270"
+                    ]
+                },
+                {
+                    "size": 0.001,
+                    "name": "13pkB",
+                    "cathid": "None"
+                },
+                {
+                    "size": 0.001,
+                    "name": "13PKC",
+                    "cathid": [
+                        "3,40,50,1270"
+                    ]
+                },
+                {
+                    "size": 0.001,
+                    "name": "13pkC",
+                    "cathid": "None"
+                }
+            ],
+            "name": "14%",
+            "size": 0.145506419401
+        }
+    ],
+    "name": "12%",
+    "size": 0.126245847176
+}
