@@ -3,6 +3,8 @@ from matplotlib import pyplot as plt
 from json import dumps
 import re, hashlib
 
+
+
 def get_pdb_dict():
         """Takes CATH domain list and returns dictionary of PDB codes
         & their CATH families"""
@@ -10,6 +12,7 @@ def get_pdb_dict():
         fh = open('CathDomainList', 'r')
         lines = fh.read().split('\n')
         fh.close()
+        colors_dict = {}
         for line in lines:
                 #ignore comments
                 if not line.startswith('#'):
@@ -19,10 +22,16 @@ def get_pdb_dict():
                         pdb = tokens[0][0:5].upper()
                         #split the PDB into root identifier and chain id
                         #could be more/less precise by using more/fewer columns
-                        cath = ','.join(tokens[1:5])
+                        cath = '.'.join(tokens[1:5])
                         pdbs[pdb] = [cath]
+                        color = "#000000"
+                        color = "#"+hashlib.md5(str(cath)).hexdigest()[:6]
+                        colors_dict[cath]=color
+        with open("cathcolors.json","w") as fp:
+                fp.write(dumps(colors_dict))
         return pdbs
 
+get_pdb_dict()
 
 class JSONNode():
         def __init__(self, energy, children):
@@ -174,7 +183,9 @@ def partition2XML(p):
 
 def partition2JSON(p):
         global global_g
+        colors_dict = {}
         def recurse(root,subp):
+                global colors_dict
                 try:
                         subp[0]
                 except Exception:
@@ -199,6 +210,7 @@ def partition2JSON(p):
                                         cathid = RAWDICT[str(subp)]
                                         print(len(cathid), cathid)
                                         color = "#"+hashlib.md5(str(cathid)).hexdigest()[:6]
+                                        colors_dict[cathid]=color
                                 else:
                                         cathid = "None"
 
@@ -214,6 +226,11 @@ def partition2JSON(p):
         root = JSONNode(float(p[0])**-1,[]).repr()
         for subp in p[1:]:
                 root = recurse(root,subp)
+
+        with open("cathcolors.json","w") as fp:
+                fp.write(dumps(color_dict))
+
+
         return dumps(root,sort_keys=False,indent=4, separators=(',', ': '))
 
 
@@ -256,7 +273,7 @@ partitions = partition(gprime.copy())
 #tree_graph = partition2Graph(partitions)
 
 # same layout using matplotlib with no labels
-with open("test_output.json","w") as fp:
+with open("brendan_output.json","w") as fp:
         fp.write(partition2JSON(partitions))
 
 #plt.title("draw_networkx")
