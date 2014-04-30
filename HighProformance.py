@@ -59,7 +59,7 @@ RAWDICT = get_pdb_dict()
 def ParsedGraph(fileName):
 
         G = nx.Graph()
-        for line in fileReader(fileName):               
+        for line in fileReader(fileName):
                 origin = line.pop(0).upper()
                 metadata = line.pop(0)#throw away metadata
                 if origin not in G.node:
@@ -70,14 +70,12 @@ def ParsedGraph(fileName):
                         other = line.pop(0)
                         dist = float(line.pop(0))
 
-
                         if dist == 0.0:
                                 dist = float("inf")
                         else:
                                 dist= dist**-1
                         #print other, dist
                         if other not in G.node:
-                                continue
                                 G.add_node(origin)
 
                         G.add_edge(origin,other,{"weight":dist})
@@ -264,16 +262,25 @@ def partition2Graph(p):
 
 
 
-global_g = ParsedGraph("test_input.csv")
+global_g = ParsedGraph("100_out_raw.txt")
+
+nx.draw(global_g)
+plt.show()
 
 gprime = genMinEnergyCoverGraph(global_g)
+
+
 
 print "graphifying"
 partitions = partition(gprime.copy())
 #tree_graph = partition2Graph(partitions)
 
 # same layout using matplotlib with no labels
+<<<<<<< HEAD
 with open("brendan_output.json","w") as fp:
+=======
+with open("100_output.json","w") as fp:
+>>>>>>> 724effabd505f02400a53c3c898293f60eb8b412
         fp.write(partition2JSON(partitions))
 
 #plt.title("draw_networkx")
